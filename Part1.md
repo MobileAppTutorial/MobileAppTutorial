@@ -50,6 +50,6 @@ Take your time to give the app a nice name (e.g. *Hello World*) and you are read
 
 Result
 ------
-I'll just show you how it looks on my phone ![screenshot of running app](Part1/Screenshot1.png). I know, it neither does anything nor does it even look good, but we'll come to that in the next tutorial.
+I'll just show you how it looks on my phone ![screenshot of running app](Part1/Screenshot1.jpg). I know, it neither does anything nor does it even look good, but we'll come to that in the next tutorial.
 
 1) For iPhone users there is a drawback: Unless your are willing to enroll in Apple's Developers Program ($99/yr) can't build your own iPhone apps. This is not a limitation of PhoneGap. Due to Apples developer guidelines every app running on an (not jailbroken) iPhone needs to be signed digitally with a certificate issued only to members of that program. You can enroll with your Apple ID at <https://developer.apple.com/programs/ios>.
