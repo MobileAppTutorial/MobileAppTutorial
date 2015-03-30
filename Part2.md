@@ -1,9 +1,11 @@
-Part 1 - An even nicer "Hello to you all"
+Part 2 - An even nicer "Hello to you all"
 ====================
 
 Introduction
 ------------
-In our last example I showed you how to write one of the most simple mobile apps - but it is also meager as [planet Mars surface](http://marsmobile.jpl.nasa.gov/msl/images/PIA16453_sol64_from_Rocknest_WB-br2.jpg)! So today I will show you how to make the whole app look like a real app and not just like an office posting.
+In our last example I showed you how to write one of the most simple mobile apps - but it is also meager as planet Mars' surface.
+![Surface of mars, photo my Curiosity](http://marsmobile.jpl.nasa.gov/msl/images/PIA16453_sol64_from_Rocknest_WB-br2.jpg)
+So today I will show you how to make the whole app look like a real app and not just like an office posting.
 
 
 Looking good now
@@ -49,7 +51,8 @@ In the last example I showed you how to use PhoneGap to build your mobile app, b
 or by adding a **config.xml** file - which is exactly what we are going to do!
 I will only discuss some of the preferences I added you can read further about the configuration file in [PhoneGap's documentation](http://docs.build.phonegap.com/en_US/configuring_basics.md.html).
 
-First we want to add a customized icon, let's use a simple [world icon](Part2/earth213.png).
+First we want to add a customized icon.
+![world icon](Part2/earth213.png)
 
     <icon src="icon.png" />
 
@@ -60,13 +63,12 @@ It's as easy as that, add an image to your root folder and name it accordingly.
 
 Result
 ------
-Again I will leave you with a screen shot from my phone: ![screen shot of running app](Part2/Screenshot1.jpg). Next time we will ad some functionality so your app actually does something.
-
-1) For iPhone users there is a drawback: Unless your are willing to enroll in Apple's Developers Program ($99/yr) can't build your own iPhone apps. This is not a limitation of PhoneGap. Due to Apples developer guidelines every app running on an (not jailbroken) iPhone needs to be signed digitally with a certificate issued only to members of that program. You can enroll with your Apple ID at <https://developer.apple.com/programs/ios>.
-
+Again I will leave you with a screen shot from my phone:
+![screen shot of running app](Part2/Screenshot1.jpg)
+Next time we will ad some functionality so your app actually does something.
 
 Image copyright
 ---------------
-The mars surface is courtesy of NASA/JPL-Caltech ([licence](http://www.jpl.nasa.gov/imagepolicy/)).
+The **mars surface** is courtesy of NASA/JPL-Caltech ([licence](http://www.jpl.nasa.gov/imagepolicy/)).
 
 The **Grid World** Icon made by [Yannick](http://www.flaticon.com/authors/yannick Yannick) from [www.flaticon.com](http://www.flaticon.com  Flaticon) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ Creative Commons BY 3.0).
