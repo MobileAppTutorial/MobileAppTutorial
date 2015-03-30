@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.TEST"
+        version     = "1.0.0" >
+
+    <name>Hello World Tutorial App</name>
+
+    <description>
+        Our second Hello World Tutorial App for Mobile Apps with jQuery Tutorial
+    </description>
+
+    <author href="******" email="*****">
+        ******
+    </author>
+
+    <!--
+        If you do not want any permissions to be added to your app, add the
+        following tag to your config.xml; you will still have the INTERNET
+        permission on your app, which PhoneGap requires.
+    -->
+    <preference name="permissions"                value="none"/>
+
+    <preference name="orientation"                value="default" />
+    <preference name="fullscreen"                 value="false" />
+    <preference name="stay-in-webview"            value="false" />
+    <preference name="detect-data-types"          value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen"    value="true" />
+    <preference name="phonegap-version"           value="3.7.0" />
+
+
+
+</widget>
