@@ -12,30 +12,32 @@ While "writing a mobile app" may sound like a complicated task there is in fact 
 
 Let's write the most simple web app known to mankind:
 
+
     <!DOCTYPE html>
     <html>
     <head>
         <meta charset=utf-8 />
         <title>Hello World!</title>
+        <meta name="viewport" content="width=device-width">
         <style>
-            .rtl {
-                direction: "rtl";
-            }
+        .rtl { direction: "rtl"; }
+        .ltr { direction: "ltr"; }
         </style>
     </head>
     <body>
         <h1 class="rtl">مرحبا بالعالم</h1>
-        <h1>你好世界</h1>
-        <h1>Hallo Welt</h1>
-        <h1>Hello World</h1>
+        <h1 class="ltr">你好世界</h1>
+        <h1 class="ltr">Hallo Welt</h1>
+        <h1 class="ltr">Hello World</h1>
         <h1 class="rtl">שלום עולם</h1>
-        <h1>हैलो वर्ल्ड</h1>
-        <h1>Hola Mundo</h1>
-        <h1>Sawubona Mhlaba!</h1>
+        <h1 class="ltr">हैलो वर्ल्ड</h1>
+        <h1 class="ltr">Hola Mundo</h1>
+        <h1 class="ltr">Sawubona Mhlaba</h1>
     </body>
     </html>
 
-That's it - I took the liberty to internationalize the app which let's test the Unicode capabilities of your smart phone. Now you copy that code into your favorite editor, save it under *index.html*. You may peek at the result it in your preferred browser.
+
+That's it - I took the liberty to internationalize the app for a few languages which let's test the Unicode capabilities of your smart phone. Now you copy that code into your favorite editor, save it under *index.html*. You may peek at the result it in your preferred browser.
 
 As a next step we need upload the source to a *GitHub* repository. Alternatively you can just take my repository for the next step.
 
@@ -49,7 +51,7 @@ As we are going to use PhoneGap to build our app (<http://build.phonegap.com>) w
 ![You need to accept the privacy policy](Part1/Adobe5.png)
 ![Here you are!](Part1/Adobe6.png)
 
-Now we connect the builder to the *GitHub* repository. As noted above you can either use your own repository (**GitHub1** shows where to find the URL) or just take mine for now: `https://github.com/TutorialBer/MobileAppTutorial.git`.
+Now we connect the builder to the *GitHub* repository. As noted above you can either use your own repository (**GitHub1** shows where to find the URL) or just take mine for now: `https://github.com/MobileAppTutorial/MobileAppTutorial.git`.
 If you didn't use the master branch alike me, you need to specify that as well (use `Example1` if you use my repository). The builder is ready to pull the code!
 ![Fill in the required information before pulling…](Part1/Adobe7.png)
 ![and pull](Part1/Adobe8.png)
