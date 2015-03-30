@@ -60,7 +60,7 @@ It's as easy as that, add an image to your root folder and name it accordingly.
 
 Result
 ------
-Again I will leave you with a screen shot from my phone: ![screen shot of running app](Part2/Screenshot2.jpg). Next time we will ad some functionality so your app actually does something.
+Again I will leave you with a screen shot from my phone: ![screen shot of running app](Part2/Screenshot1.jpg). Next time we will ad some functionality so your app actually does something.
 
 1) For iPhone users there is a drawback: Unless your are willing to enroll in Apple's Developers Program ($99/yr) can't build your own iPhone apps. This is not a limitation of PhoneGap. Due to Apples developer guidelines every app running on an (not jailbroken) iPhone needs to be signed digitally with a certificate issued only to members of that program. You can enroll with your Apple ID at <https://developer.apple.com/programs/ios>.
 
@@ -68,4 +68,5 @@ Again I will leave you with a screen shot from my phone: ![screen shot of runnin
 Image copyright
 ---------------
 The mars surface is courtesy of NASA/JPL-Caltech ([licence](http://www.jpl.nasa.gov/imagepolicy/)).
+
 The **Grid World** Icon made by [Yannick](http://www.flaticon.com/authors/yannick Yannick) from [www.flaticon.com](http://www.flaticon.com  Flaticon) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/ Creative Commons BY 3.0).
