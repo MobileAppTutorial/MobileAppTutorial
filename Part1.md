@@ -37,6 +37,7 @@ Let's write the most simple web app known to mankind:
     </html>
 
 
+The one single addition I recommend adding to this otherwise selfe explainatory document is the *meta*-element in the header that defines the *viewport*'s width to *device-width*. This way you prevent zooming as you may know it from webpages not optimized for mobile viewing.
 That's it - I took the liberty to internationalize the app for a few languages which let's test the Unicode capabilities of your smart phone. Now you copy that code into your favorite editor, save it under *index.html*. You may peek at the result it in your preferred browser.
 
 As a next step we need upload the source to a *GitHub* repository. Alternatively you can just take my repository for the next step.
