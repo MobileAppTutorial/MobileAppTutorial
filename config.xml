@@ -14,6 +14,12 @@
         ******
     </author>
 
+    <icon src="icon.png" />
+
+    <gap:splash src="splash.png" width="320" height="480" />
+
+    <preference name="phonegap-version"           value="3.7.0" />
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -21,14 +27,6 @@
     -->
     <preference name="permissions"                value="none"/>
 
-    <preference name="orientation"                value="default" />
     <preference name="fullscreen"                 value="false" />
-    <preference name="stay-in-webview"            value="false" />
-    <preference name="detect-data-types"          value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen"    value="true" />
-    <preference name="phonegap-version"           value="3.7.0" />
-
-
 
 </widget>
